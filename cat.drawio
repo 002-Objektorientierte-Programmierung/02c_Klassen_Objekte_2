@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
-    <diagram id="6PwjbmQvfFYdugo-1qz7" name="Cat">
-        <mxGraphModel dx="773" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <diagram id="6PwjbmQvfFYdugo-1qz7" name="Cat_old">
+        <mxGraphModel dx="339" dy="310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -8,6 +8,20 @@
                     <mxGeometry x="280" y="40" width="170" height="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="LiOZe_ZKttoa6zsFgbIc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="LiOZe_ZKttoa6zsFgbIc-5" target="LiOZe_ZKttoa6zsFgbIc-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Cat_new" id="9eX8JkS17SGnqHYaYMuv">
+        <mxGraphModel dx="339" dy="310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="3APbsN_Jst3lNAUTWXAF-0"/>
+                <mxCell id="3APbsN_Jst3lNAUTWXAF-1" parent="3APbsN_Jst3lNAUTWXAF-0"/>
+                <mxCell id="3APbsN_Jst3lNAUTWXAF-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Cat&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- name: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- furColor: String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- age: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- isFemale: boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- counter: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ getString Attributes(): String&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getFurColor(): String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getAge(): int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setName(String): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="3APbsN_Jst3lNAUTWXAF-1">
+                    <mxGeometry x="280" y="40" width="200" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="3APbsN_Jst3lNAUTWXAF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3APbsN_Jst3lNAUTWXAF-1" source="3APbsN_Jst3lNAUTWXAF-2" target="3APbsN_Jst3lNAUTWXAF-2">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
